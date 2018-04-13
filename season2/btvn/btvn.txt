@@ -1,0 +1,11 @@
+Q1 : A Boolean value is either true or false. It is named after the British mathematician, George
+Boole, who first formulated Boolean algebra — some rules for reasoning about and combining
+these values. This is the basis of all modern computer logic
+ex :
+>>>6 == (3+3)
+true
+>>>6 == (5+4)
+false
+>>>n == "bon"
+>>> n + "jours" = "bonjour"
+true

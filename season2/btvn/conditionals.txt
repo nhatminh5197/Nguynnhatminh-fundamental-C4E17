@@ -1,0 +1,12 @@
+Q3:What is nested conditionals? Write a piece of code that uses nested conditionals :
+Ans:
+_nested conditionals is a combine conditionnal, one brand of the first condition can contain other conditionals
+
+eg:
+
+if age < 10:
+    print("baby")
+elif age < 18:
+    print("teenager")
+else:
+    print("Adult")
