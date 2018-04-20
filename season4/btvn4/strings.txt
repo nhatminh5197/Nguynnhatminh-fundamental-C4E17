@@ -1,0 +1,24 @@
+câu 1 :
+How do we convert  a string to uppercase or lowercase?
+s = "Kilometer"
+print(s.lower())
+
+How do we get length of a string?
+str = "this is string example....wow!!!";
+print "Length of the string: ", len(str)
+Length of the string:  32
+
+How do we print a string, one character per line?
+prefixes = "JKLMNOPQ"
+2 suffix = "ack"
+3
+4 for p in prefixes:
+5 print(p + suffix)
+
+How do we compare two strings?
+if word < "banana":
+2 print("Your word, " + word + ", comes before banana.")
+3 elif word > "banana":
+4 print("Your word, " + word + ", comes after banana.")
+5 else:
+6 print("Yes, we have no bananas!")
