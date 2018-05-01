@@ -1,0 +1,5 @@
+from datetime import datetime
+
+def main():
+	today = datetime.now
+	print("the current date and time this day",today)
