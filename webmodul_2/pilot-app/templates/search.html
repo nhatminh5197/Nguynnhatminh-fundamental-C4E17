@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>muadongkhonglanh</title>
+  </head>
+  <body>
+    <h1>Nguoiyeuoi</h1>
+    {%for service in all_service%}
+      <div>
+         {% if service.gender == 0 %}
+            <img src="../static/image/female-profile.jpg" alt="">
+         {% else %}
+            <img src="../static/image/male-profile.jpg" alt="">
+         {% endif %}
+          <p>Name: {{service.name }}</p>
+          <p>Yob: {{service.Yob }}</p>
+          <p>Gender: {{service.Gender }}</p>
+          <p>Phone: {{service.Phone}}</p>
+          <p>Address: {{service.Address }}</p>
+          <p>Height: {{service.Height }}</p>
+          <p>Status: {{service.Status }}</p>
+        </div>
+        <hr>
+      {%endfor%}
+
+  </body>
+</html>
